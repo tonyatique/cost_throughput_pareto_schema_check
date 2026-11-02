@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "tonyatique-autoperceive_jd047"
+name = "tonyatique-cost_throughput_pareto_schema_check"
 version = "0.1.0"
 description = "从样本里推断自动驾驶感知工程师·成本与吞吐的帕累托边界应有的字段集合，逐字段检查存在性与类型，缺失项单独列出"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://tonyatique.github.io"
-Repository = "https://github.com/tonyatique/autoperceive_jd047"
-Issues = "https://github.com/tonyatique/autoperceive_jd047/issues"
+Repository = "https://github.com/tonyatique/cost_throughput_pareto_schema_check"
+Issues = "https://github.com/tonyatique/cost_throughput_pareto_schema_check/issues"
 
 [project.scripts]
-autoperceive_jd047 = "autoperceive_jd047:main"
+cost_throughput_pareto_schema_check = "cost_throughput_pareto_schema_check:main"
 
 [tool.setuptools]
-py-modules = ["autoperceive_jd047"]
+py-modules = ["cost_throughput_pareto_schema_check"]

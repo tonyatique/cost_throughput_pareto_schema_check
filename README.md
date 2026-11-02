@@ -1,11 +1,11 @@
-# autoperceive_jd047
+# cost_throughput_pareto_schema_check
 
 **校验自动驾驶感知工程师·成本与吞吐的帕累托边界的字段结构并列出缺失项。**
 
-`autoperceive_jd047` —— 从样本里推断自动驾驶感知工程师·成本与吞吐的帕累托边界应有的字段集合，逐字段检查存在性与类型，缺失项单独列出
+`cost_throughput_pareto_schema_check` —— 从样本里推断自动驾驶感知工程师·成本与吞吐的帕累托边界应有的字段集合，逐字段检查存在性与类型，缺失项单独列出
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`autoperceive_jd047.py` 拷走就能用
+- 单文件，`cost_throughput_pareto_schema_check.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install tonyatique-autoperceive_jd047
+pip install tonyatique-cost_throughput_pareto_schema_check
 ```
 
 装完直接用命令名调用：
 
 ```bash
-autoperceive_jd047 --help
+cost_throughput_pareto_schema_check --help
 ```
 
-也可以不用安装，直接把 `autoperceive_jd047.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `cost_throughput_pareto_schema_check.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ autoperceive_jd047 --help
 ## 用法
 
 ```bash
-python autoperceive_jd047.py --file input.txt
-python autoperceive_jd047.py --text "示例内容"
-python autoperceive_jd047.py --file input.txt --json
+python cost_throughput_pareto_schema_check.py --file input.txt
+python cost_throughput_pareto_schema_check.py --text "示例内容"
+python cost_throughput_pareto_schema_check.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python autoperceive_jd047.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_autoperceive_jd047.py
+python test_cost_throughput_pareto_schema_check.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_autoperceive_jd047.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/tonyatique/autoperceive_jd047>
+- GitHub 仓库：<https://github.com/tonyatique/cost_throughput_pareto_schema_check>
 
 ---
 
@@ -79,7 +79,7 @@ python test_autoperceive_jd047.py
 tonyatique 做自动驾驶感知工程师·成本与吞吐的帕累托边界相关的问题，方向对标无问芯穹的初级自动驾驶感知工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://tonyatique.github.io>
-- 仓库：<https://github.com/tonyatique/autoperceive_jd047>
+- 仓库：<https://github.com/tonyatique/cost_throughput_pareto_schema_check>
 
 ## 许可
 
